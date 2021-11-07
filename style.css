@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -32,4 +34,13 @@ body {
 .container .ring:nth-child(3) {
   position: absolute;
   top: -66.66px;
+}
+
+.container p {
+  position: absolute;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: 'Inconsolata', monospace;
+  bottom: -80px;
+  letter-spacing: 0.15em;
 }
